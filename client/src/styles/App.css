@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.flight div, .airplane div {
+  display: inline-block;
+  margin: 5px;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+section div {
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+  color:red
+}
